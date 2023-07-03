@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+    <style>
+        .imagem-direita {
+            float: right;
+        }
+    </style>
+    <style>
+        .centrar-formulario {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            /* Define a altura do contêiner para ocupar a altura total da viewport */
+        }
+
+        .formulario {
+            width: 400px;
+            /* Define a largura do formulário conforme necessário */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .campo {
+            margin-bottom: 40px;
+            padding: 10px;
+            border: 1px solid;
+            width: 300px;
+        }
+
+        .titulo {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/conexos-logo-black.png" alt="Logo conexoos">
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Inicio</a></li>
+                    <li> <a href="planos.html">Planos</a></li>
+                    <li> <a href="statusSolicitacao.html">Status de Solicitação</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form class="formulario">
+        <div class="titulo">Contratação de Plano</div>
+        <!-- Campos do formulário aqui -->
+    </form>
+    </fieldset>
+    </form>
+    <img class="imagem-direita" src="img/ilustra_contrato.png" alt="Minha Imagem">
+    <div class="centrar-formulario">
+        <form class="formulario">
+            <!-- Seu conteúdo do formulário aqui -->
+            <form class="formulario">
+                <div class="campo">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome de usuário">
+                </div>
+                <div class="campo">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" class="form-control" id="cpf" placeholder="Digite seu CPF">
+                    <div class="campo">
+                        <label for="telefone">Telefone para contato:</label>
+                        <input type="text" class="form-control" id="telefone" placeholder="Digite seu telefone">
+                    </div>
+                    <div class="campo">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                    </div>
+                    <div class="campo">
+                        <label for="plano">Planos:</label>
+                        <select class="form-control" id="plano">
+                            <option>Plano 1</option>
+                            <option>Plano 2</option>
+                            <option>Plano 3</option>
+                        </select>
+                    </div>
+                    <div class="campo">
+                        <label for="horas">Horas:</label>
+                        <select class="form-control" id="horas">
+                            <option>12:00 as 14:00</option>
+                            <option>15:00 as 18:00</option>
+                            <option>18:00 as 19:30</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Contratar</button>
+
+            </form>
+            <footer>
+
+                <div class="logo">
+                    <img src="img/conexos-logo-black.png" alt="Logo conexoos">
+                </div>
+                <div class="legenda">
+                    <nav>
+                        <p>todos direitos reservados a conexos</p>
+                    </nav>
+                </div>
+            </footer>
+
+    </div>
+</body>
+
+</html>
